@@ -2,11 +2,11 @@
 /* eslint-disable */
 // API 更新时间：
 // API 唯一标识：
-import * as pet from './pet';
-import * as store from './store';
-import * as user from './user';
+import * as demoController from './demoController';
+import * as spaceController from './spaceController';
+import * as testController from './testController';
 export default {
-  pet,
-  store,
-  user,
+  demoController,
+  spaceController,
+  testController,
 };
