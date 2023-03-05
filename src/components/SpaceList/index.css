@@ -1,0 +1,21 @@
+.container{
+  padding-inline: 24px;
+  padding-block: 16px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 6px;
+  height: 100%;
+}
+
+.list-item-container{
+  margin-block: 8px;
+  margin-inline: 0;
+  padding-block: 0;
+  padding-inline: 8px;
+}
+
+.list-item{
+  cursor: pointer;
+  transition: box-shadow 0.3s,border-color 0.3s;
+  border: 1px solid rgba(5, 5, 5, 0.06);
+}
